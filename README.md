@@ -34,5 +34,6 @@ Eventually you should clean and refresh the imported project.
 <li>Place your appId and appSecret in /src/main/ressources/application.properties</li>
 <li>Start the application main function in /src/main/java/hello/Application.java</li>
 <li>Open your browser and visit: http://localhost:8080/connect/facebook</li>
-<li>Get your news feed!</li>
+<li>Connect to facebook</li>
+<li>Get your fabulous news feed!</li>
 </ol>
