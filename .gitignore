@@ -1,5 +1,7 @@
-## Java
+## Application
+application.properties
 
+## Java
 *.class
 *.war
 *.ear
@@ -55,7 +57,6 @@ nbactions.xml
 nb-configuration.xml
 
 ## Gradle
-
 .gradle
 build/
 
