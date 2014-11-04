@@ -31,6 +31,9 @@ public class HelloController {
         PagedList<Post> homeFeed = facebook.feedOperations().getHomeFeed();
         model.addAttribute("feed", homeFeed);
 
+		String uri = "https://graph.facebook.com/v2.2/search?q='helloween'&type=event";
+		System.out.println(facebook.restOperations().getForObject(uri, String.class));
+
         return "hello";
     }
 
